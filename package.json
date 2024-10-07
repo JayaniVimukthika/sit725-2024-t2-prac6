@@ -2,10 +2,10 @@
     "name": "sit725-2023-t2-p2",
     "version": "1.0.0",
     "description": "",
-    "main": "server.js",
+    "main": "server_get.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node startServerWithMongo.js"
+        "test": "mocha --reporter spec",
+        "start": "node server_get.js"
     },
     "repository": {
         "type": "git",
@@ -19,6 +19,7 @@
     "homepage": "https://github.com/stephenliu8964/sit725-2023-t2-prac2#readme",
     "dependencies": {
         "expresss": "^0.0.0",
+        "mocha": "^10.2.0",
         "mongodb": "^4.4.1",
         "nodemon": "^3.0.1",
         "sit725-2023-t2-p2": "file:"
